@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>MyPortfolio</title>
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <section class="hero">
+    <nav class="navbar">
+      <div class="logo" data-aos="fade-left" data-aos-duration="2000"> <a href="/"><em>M </em>/<span>T</span></a></div>
+      <ul data-aos="fade-right" data-aos-duration="2000" class="nav-menu">
+        <li class="nav-item">
+          <a href="#about-me" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skilss" class="nav-link">Skils</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="/" class="nav-link">work</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    <div class="hero-area">
+      <div class="hero-text">
+        <h2>Hi,</h2>
+        <br>
+        <h1 id="text1"></h1>
+        <br>
+        <div id="text2"></div>
+        <br>
+        <div class="fade">
+          <form action="#about-me" data-aos="fade-up" data-aos-duration="2000">
+            <button class="big-button">About</button>
+          </form>
+          <form action="#contact" data-aos="fade-down" data-aos-duration="2000">
+            <button class="big-button">Contact</button>
+          </form id="about-me">
+        </div>
+      </div>
+      <div class="socials" data-aos="fade-up" data-aos-duration="3000">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+  </section>
+  <!-- about me -->
+  <section class="about-skills" id="about-me">
+    <u data-aos="fade-down" data-aos-duration="3000">About</u>
+    <div class="sub-section" data-aos="fade-right" data-aos-duration="3000">
+      <div class="headshot-container">
+        <img class="headshot" src="https://bit.ly/3vHV5KF" alt=" headshot" />
+      </div>
+      <div class="information">
+        <h3>I'am John Tom</h3>
+        <p>A Highly motivated Junior software Developer with desire to learn . Versatile and enthusiastic
+          in search of an entry level position as a software engineer or a web developer in a company that encourages
+          growth and flexibility . I am conscientious and organized with exceptional time management ability. One of my
+          objectives is to keep updated with the latest IT trends and technologies.
+        <p>
+        <section class="btn1"><button class="btn" data-aos="fade-left" data-aos-duration="3000"> <a href="#" download>Download CV </a>
+          <i class="fa fa-download"></i> </button></section>
+      </div>
+    </div>
+    <!-- skill-section -->
+    <u id="skilss" data-aos="fade-down" data-aos-duration="3000"> Skills</u>
+    <div class="skill-section" data-aos="fade-up" data-aos-duration="3000">
+      <div class="skill-bar">
+        <h3>Profesional Skills</h3>
+        <p>Experience with using JavaScript frameworks such as ReactJS to create
+          Single Page Application.
+          Experience with using Bootstrap framework/css3 extensions and building
+          responsive website for different devices.</p>
+        <div class="container">
+          <div class="container-text">
+            <i class="fab fa-html5"></i>
+            <h4>HTML5<h4>
+                <h4>95%</h4>
+          </div>
+          <div class="html"></div>
+        </div>
+        <div class="container">
+          <div class="container-text">
+            <i class="fab fa-css3-alt"></i>
+            <h4>CSS3<h4>
+                <h4>85%</h4>
+          </div>
+          <div class="css"></div>
+        </div>
+        <div class="container">
+          <div class="container-text">
+            <i class="fab fa-js-square"></i>
+            <h4>JAVASCRIPT<h4>
+                <h4>55%</h4>
+          </div>
+          <div class="js"></div>
+        </div>
+        <div class="container">
+          <div class="container-text">
+            <i class="fab fa-python"></i>
+            <h4>PYTHON<h4>
+                <h4>45%</h4>
+          </div>
+          <div class="python"></div>
+        </div>
+      </div>
+      <img class="Skils-photo" src="src/images/work3.jpg" alt=" headshot" />
+    </div>
+
+  </section>
+  <!-- project section -->
+  <section class="sub-section-alternative" id="projects">
+   <div> <u data-aos="fade-down" data-aos-duration="3000">Projects</u></div>
+    <div class="project-container">
+      <div class="project-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+        <img class="project-image" src="src/images/prj1.png" alt="Project One Image" />
+        <h5>Gym Webpage</h5>
+        <p class="subtext">A simple website using HTML, CSS, and JavaScript</p>
+        <hr />
+        <section class="btn1"><button class="btn" data-aos="flip-down" data-aos-duration="2000"><a href="#">VIEW HERE</a></button>
+        </section>
+      </div>
+      <div class="project-card" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <img class="project-image" src="src/images/chhose.png" alt="Project One Image" />
+        <h5>Small Js Projects</h5>
+        <p class="subtext">Mini js APPS using HTML, CSS, and JavaScript</p>
+        <hr />
+        <section class="btn1"><button class="btn" data-aos="flip-down" data-aos-duration="2000"><a href="#">VIEW HERE</a></button>
+        </section>
+      </div>
+      <div class="project-card" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+        <img class="project-image" src="src/images/pyhton.png" alt="Project One Image" />
+        <h5>Python Basic Project</h5>
+        <p class="subtext">Basic python program with sqlite3 as database</p>
+        <hr />
+        <section class="btn1"><button class="btn" data-aos="flip-down" data-aos-duration="2000"><a href="#">VIEW HERE</a></button>
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- footer section  -->
+  <section class="contact" id="contact-me">
+    <u>Contact</u>
+    <div class="information" data-aos="zoom-in-down" data-aos-duration="1000">
+      <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <input name="number" type="number" class="feedback-input" placeholder="Phone Number" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </div>
+    </div>
+    <footer class="footer-distributed" id="contact">
+
+      <div class="footer-right" data-aos="fade-left" data-aos-duration="1000">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="footer-left" data-aos="fade-right" data-aos-duration="1000">
+
+        <p class="footer-links">
+          <a class="link-1" href="#"><i class="far fa-envelope"></i> mirian.tomani@gmail.com</a>
+          <a href="#"><i class="fas fa-phone-alt"></i> 07448003517</a>
+          <a href="#"><i class="fa fa-map-marker mr-1"></i> w10 6bg London</a>
+          M/T &copy; 2022
+        </p>
+        <p style="text-align: center;">M/T &copy; 2022</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/app.js"></script>
+</body>
+
+</html>
